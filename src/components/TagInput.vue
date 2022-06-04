@@ -9,6 +9,8 @@
       @keydown.prevent.tab="addTag(newTag)"
       @keydown.delete="newTag.length || removeTag(tags.length - 1)"
       @input="addTagIfDelem(newTag)"
+      @blur="addTag(newTag)"
+      @keydown.esc="clearTag"
       :style="{ 'padding-left': `${paddingLeft}px` }"
     />
 
@@ -79,6 +81,10 @@ export default {
         ).filter((it) => it.length == 1)
       ),
     ];
+
+    const clearTag = () => {
+      newTag.value = "";
+    };
 
     // handling duplicates
     const duplicate = ref(null);
@@ -156,7 +162,8 @@ export default {
       availableOptions,
       id,
       duplicate,
-      noMatchingTag
+      noMatchingTag,
+      clearTag
     };
   },
 };
