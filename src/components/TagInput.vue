@@ -11,6 +11,7 @@
       @input="addTagIfDelem(newTag)"
       @blur="addTag(newTag)"
       @keydown.esc="clearTag"
+      @focus="handleFocus"
       :style="{ 'padding-left': `${paddingLeft}px` }"
     />
 
@@ -46,6 +47,7 @@ import { ref, watch, nextTick, onMounted, computed } from "vue";
 
 export default {
   name: "TagInput",
+  emits: ["focus-event", "update:modelValue"],
   props: {
     name: { type: String, default: "" },
     modelValue: { type: Array, default: () => [] },
@@ -81,6 +83,10 @@ export default {
         ).filter((it) => it.length == 1)
       ),
     ];
+
+    const handleFocus = () => {
+      emit("focus-event");
+    };
 
     const clearTag = () => {
       newTag.value = "";
@@ -163,7 +169,8 @@ export default {
       id,
       duplicate,
       noMatchingTag,
-      clearTag
+      clearTag,
+      handleFocus
     };
   },
 };

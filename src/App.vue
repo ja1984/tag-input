@@ -10,7 +10,7 @@
     <br>
     <span>Use <code>enter</code> key or <code>tab</code> key to create a new tag.</span>
     <h1>With custom delimiter and colors</h1>
-    <tag-input tagBgColor="lightgreen" tagTextColor="darkgreen" :customDelimiter="customDelimiter" v-model="tags" />
+    <tag-input tagBgColor="lightgreen" @focus-event="handleFocusEvent" tagTextColor="darkgreen" :customDelimiter="customDelimiter" v-model="tags" />
     <br>
     <span>Use <code>enter</code> key or <code>tab</code> key or any of the custom delimeters to create a new tag.</span>
     <p>Custom delimiters: <code v-for="delim in customDelimiter" :key="delim"> "{{delim}}"</code></p>
@@ -50,6 +50,11 @@ export default {
   },
   components: {
     TagInput
+  },
+  methods: {
+    handleFocusEvent(test) {
+      console.log('focus');
+    },
   }
 }
 </script>
