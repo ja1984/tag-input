@@ -224,6 +224,13 @@ exports.f = DESCRIPTORS ? $getOwnPropertyDescriptor : function getOwnPropertyDes
 
 /***/ }),
 
+/***/ "07c8":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "07fa":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -913,6 +920,17 @@ module.exports = function (it) {
 
 /***/ }),
 
+/***/ "354e":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_TagInput_vue_vue_type_style_index_0_id_507bb658_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("07c8");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_TagInput_vue_vue_type_style_index_0_id_507bb658_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_TagInput_vue_vue_type_style_index_0_id_507bb658_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
 /***/ "35a1":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1332,17 +1350,6 @@ module.exports = function from(arrayLike /* , mapfn = undefined, thisArg = undef
   result.length = index;
   return result;
 };
-
-
-/***/ }),
-
-/***/ "4e78":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_TagInput_vue_vue_type_style_index_0_id_06b84df8_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("9015");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_TagInput_vue_vue_type_style_index_0_id_06b84df8_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_v16_dist_index_js_ref_1_1_TagInput_vue_vue_type_style_index_0_id_06b84df8_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
 
 
 /***/ }),
@@ -2687,13 +2694,6 @@ module.exports = store.inspectSource;
 /***/ (function(module, exports) {
 
 module.exports = require("vue");
-
-/***/ }),
-
-/***/ "9015":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -5097,12 +5097,12 @@ function _defineProperty(obj, key, value) {
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/TagInput.vue?vue&type=template&id=06b84df8&scoped=true
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/TagInput.vue?vue&type=template&id=507bb658&scoped=true
 
 
 
-var TagInputvue_type_template_id_06b84df8_scoped_true_withScopeId = function _withScopeId(n) {
-  return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["pushScopeId"])("data-v-06b84df8"), n = n(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["popScopeId"])(), n;
+var TagInputvue_type_template_id_507bb658_scoped_true_withScopeId = function _withScopeId(n) {
+  return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["pushScopeId"])("data-v-507bb658"), n = n(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["popScopeId"])(), n;
 };
 
 var _hoisted_1 = ["list"];
@@ -5180,7 +5180,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }, "x", 8, _hoisted_5)], 2);
   }), 128))], 512), $props.showCount ? (Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("div", _hoisted_6, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("span", null, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])($setup.tags.length), 1), _hoisted_7])) : Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createCommentVNode"])("", true)], 2), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["withDirectives"])(Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("small", _hoisted_8, "Custom tags not allowed", 512), [[external_commonjs_vue_commonjs2_vue_root_Vue_["vShow"], $setup.noMatchingTag]])], 64);
 }
-// CONCATENATED MODULE: ./src/components/TagInput.vue?vue&type=template&id=06b84df8&scoped=true
+// CONCATENATED MODULE: ./src/components/TagInput.vue?vue&type=template&id=507bb658&scoped=true
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js
 function _arrayLikeToArray(arr, len) {
@@ -5381,8 +5381,8 @@ var es_array_splice = __webpack_require__("a434");
       return it.length == 1;
     })));
 
-    var handleFocus = function handleFocus() {
-      emit("focus-event");
+    var handleFocus = function handleFocus(ev) {
+      emit("focus-event", ev);
     };
 
     var clearTag = function clearTag() {
@@ -5490,8 +5490,8 @@ var es_array_splice = __webpack_require__("a434");
 });
 // CONCATENATED MODULE: ./src/components/TagInput.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./src/components/TagInput.vue?vue&type=style&index=0&id=06b84df8&scoped=true&lang=css
-var TagInputvue_type_style_index_0_id_06b84df8_scoped_true_lang_css = __webpack_require__("4e78");
+// EXTERNAL MODULE: ./src/components/TagInput.vue?vue&type=style&index=0&id=507bb658&scoped=true&lang=css
+var TagInputvue_type_style_index_0_id_507bb658_scoped_true_lang_css = __webpack_require__("354e");
 
 // EXTERNAL MODULE: ./node_modules/vue-loader-v16/dist/exportHelper.js
 var exportHelper = __webpack_require__("6b0d");
@@ -5505,7 +5505,7 @@ var exportHelper_default = /*#__PURE__*/__webpack_require__.n(exportHelper);
 
 
 
-const __exports__ = /*#__PURE__*/exportHelper_default()(TagInputvue_type_script_lang_js, [['render',render],['__scopeId',"data-v-06b84df8"]])
+const __exports__ = /*#__PURE__*/exportHelper_default()(TagInputvue_type_script_lang_js, [['render',render],['__scopeId',"data-v-507bb658"]])
 
 /* harmony default export */ var TagInput = (__exports__);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js

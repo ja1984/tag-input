@@ -84,8 +84,8 @@ export default {
       ),
     ];
 
-    const handleFocus = () => {
-      emit("focus-event");
+    const handleFocus = (ev) => {
+      emit("focus-event", ev);
     };
 
     const clearTag = () => {
